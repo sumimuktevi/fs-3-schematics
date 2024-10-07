@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Coin Cell Battery")
 	(tags "MS621FE-FL11E ")
 	(property "Reference" "B"
 		(at 0 0 0)
