@@ -852,12 +852,6 @@
 		)
 	)
 	(junction
-		(at 121.92 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e2a94ed-00b2-4424-85eb-ac128a493dc4")
-	)
-	(junction
 		(at 156.21 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -874,6 +868,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4cd9b10-426d-41b2-8996-f69045e61874")
+	)
+	(junction
+		(at 121.92 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85bed21-c1ed-4aac-8d52-7109739c1785")
 	)
 	(polyline
 		(pts
@@ -937,6 +937,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 57.15) (xy 130.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d0294f-5883-40d5-a1ad-ec3452e179a0")
+	)
+	(wire
+		(pts
 			(xy 156.21 57.15) (xy 156.21 66.04)
 		)
 		(stroke
@@ -984,16 +994,6 @@
 			(type default)
 		)
 		(uuid "9635975d-cd38-4546-a9bd-4e272b08496d")
-	)
-	(wire
-		(pts
-			(xy 121.92 57.15) (xy 130.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8deffb-ac63-4829-ab3b-b3323f1885ce")
 	)
 	(wire
 		(pts
@@ -1145,7 +1145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7befc1")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 119.2276 68.6816 0)
 			(effects
 				(font
@@ -1204,10 +1204,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "Q2")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "Q3")
 					(unit 1)
@@ -1244,7 +1240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7befc7")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 133.35 67.31 90)
 			(effects
 				(font
@@ -1260,7 +1256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.35 68.072 90)
 			(effects
 				(font
@@ -1295,10 +1291,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "R17")
 					(unit 1)
@@ -1335,7 +1327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7befcd")
-		(property "Reference" "R10"
+		(property "Reference" "R16"
 			(at 119.38 77.47 90)
 			(effects
 				(font
@@ -1353,7 +1345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 123.698 78.74 90)
 			(effects
 				(font
@@ -1388,10 +1380,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "R10")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "R16")
 					(unit 1)
@@ -1428,7 +1416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7befd3")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 134.62 54.61 90)
 			(effects
 				(font
@@ -1444,7 +1432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 134.62 55.372 90)
 			(effects
 				(font
@@ -1479,10 +1467,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "R14")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "R18")
 					(unit 1)
@@ -1519,7 +1503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7befd9")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 159.131 68.6816 0)
 			(effects
 				(font
@@ -1537,7 +1521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.1752 73.66 0)
 			(effects
 				(font
@@ -1572,10 +1556,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "C4")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "C5")
 					(unit 1)
@@ -1612,7 +1592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7beffa")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 111.76 78.74 90)
 			(effects
 				(font
@@ -1663,10 +1643,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "D2")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "D3")
 					(unit 1)
@@ -1703,7 +1679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7bf000")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 113.03 73.66 90)
 			(effects
 				(font
@@ -1719,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -1754,10 +1730,6 @@
 		)
 		(instances
 			(project ""
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f7bc591"
-					(reference "R9")
-					(unit 1)
-				)
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1/00000000-0000-0000-0000-00005f8f22d1"
 					(reference "R15")
 					(unit 1)

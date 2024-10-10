@@ -437,7 +437,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "FS_3_Global_Symbol_Library"
+    ]
   },
   "meta": {
     "filename": "BMS.kicad_pro",
@@ -986,10 +988,6 @@
     [
       "dc0b64a3-156e-446d-a433-c56b0c761cf1",
       "Root"
-    ],
-    [
-      "00000000-0000-0000-0000-00005f7bc591",
-      "BB6"
     ],
     [
       "00000000-0000-0000-0000-00005f8f22d1",
