@@ -10419,7 +10419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfaf992")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 343.5858 115.062 0)
 			(effects
 				(font
@@ -10473,7 +10473,7 @@
 		(instances
 			(project ""
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11383,8 +11383,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "585f7e65-1cf2-448a-a132-af96e76cef44")
-		(property "Reference" "6_2_Pin_Connectors6"
-			(at 298.196 181.102 0)
+		(property "Reference" "J9"
+			(at 299.466 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11435,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11450,8 +11450,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "916cdfb4-586e-4d7d-8ae2-1be4ffc63c38")
-		(property "Reference" "6_2_Pin_Connectors4"
-			(at 298.196 176.022 0)
+		(property "Reference" "J7"
+			(at 299.466 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11502,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11517,8 +11517,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eb214c8-c6b9-402e-93cc-3dbeb04aca75")
-		(property "Reference" "6_2_Pin_Connectors2"
-			(at 298.196 170.942 0)
+		(property "Reference" "J5"
+			(at 299.466 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11569,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11649,8 +11649,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b21714ff-37c0-4c7b-9cca-296c8c40ad54")
-		(property "Reference" "6_2_Pin_Connectors1"
-			(at 298.196 168.402 0)
+		(property "Reference" "J4"
+			(at 299.466 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +11701,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12054,8 +12054,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfaee48b-1094-4e26-892f-f81e33b544e9")
-		(property "Reference" "6_2_Pin_Connectors3"
-			(at 298.196 173.482 0)
+		(property "Reference" "J6"
+			(at 299.466 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12106,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12274,8 +12274,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f662f022-be1f-48c6-a429-e7ce4faf9f25")
-		(property "Reference" "6_2_Pin_Connectors5"
-			(at 298.196 178.562 0)
+		(property "Reference" "J8"
+			(at 299.466 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12326,7 @@
 		(instances
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "6_2_Pin_Connectors5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
