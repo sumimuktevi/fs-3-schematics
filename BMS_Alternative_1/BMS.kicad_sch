@@ -8745,7 +8745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 342.9 113.03 0)
 			(effects
 				(font
@@ -10437,7 +10437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 342.9 118.11 0)
 			(effects
 				(font
@@ -11399,7 +11399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 185.42 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 180.34 0)
 			(effects
 				(font
@@ -11533,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 175.26 0)
 			(effects
 				(font
@@ -11665,7 +11665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 172.72 0)
 			(effects
 				(font
@@ -12070,7 +12070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 177.8 0)
 			(effects
 				(font
@@ -12290,7 +12290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 298.45 182.88 0)
 			(effects
 				(font
@@ -12358,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "FS_3_Global_Footprint_Library:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
 			(at 48.26 74.93 0)
 			(effects
 				(font
