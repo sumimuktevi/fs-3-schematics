@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Telemetry Board")
-		(date "2024-10-08")
+		(date "2024-10-24")
 		(rev "1.0")
 	)
 	(lib_symbols
@@ -3850,6 +3850,27 @@
 			(type default)
 		)
 		(uuid "f23f9c8e-99e7-41d6-b5b8-ce3f2f419242")
+	)
+	(text "Do Not Use\n"
+		(exclude_from_sim no)
+		(at 175.26 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29381ad1-d445-4e48-8fb5-83b123da55e3")
+	)
+	(text "1 CAN bus -> 2 CAN Busses\nSPI Connected to 2 can controllers\nhttps://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf\nperipheral boards being replaced with CAN (Except power and ground)\nMake a list of sensors that need to be powered by PDB\nReach out to AUTO companies for flow sensor(s)\nUpdate conneter to have power(and gnd), can x2, power to peripherals (and gnd), direct inputs.\nDirect inputs go to multiplexer."
+		(exclude_from_sim no)
+		(at 149.352 -9.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e8c852-d2c3-43ff-9f51-581e2175d018")
 	)
 	(text "Do Not Use\n"
 		(exclude_from_sim no)
@@ -9279,6 +9300,44 @@
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR031")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 30.48)
+		(size 39.37 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5202dbb4-7f48-498e-b287-0e659a501f37")
+		(property "Sheetname" "DEMO STUFF"
+			(at 226.06 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 226.06 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Telemetry Board"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(page "3")
 				)
 			)
 		)
