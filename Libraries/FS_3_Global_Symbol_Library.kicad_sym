@@ -2769,7 +2769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC18-W_MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm"
 			(at 0 0 0)
 			(effects
 				(font
