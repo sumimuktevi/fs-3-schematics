@@ -2754,7 +2754,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 38.1 10.16 0)
+			(at 18.796 7.874 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Value" "MCP2515-I/SO"
-			(at 38.1 7.62 0)
+			(at 18.796 4.318 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2817,54 +2817,6 @@
 			)
 		)
 		(symbol "MCP2515-I_SO_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -25.4) (xy 68.58 -25.4)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -25.4)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 68.58 -25.4) (xy 68.58 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 68.58 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin unspecified line
 				(at 0 0 0)
 				(length 7.62)
@@ -2884,7 +2836,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -20.32 180)
+				(at 38.1 -20.32 180)
 				(length 7.62)
 				(name "*RX1BF"
 					(effects
@@ -2902,7 +2854,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -17.78 180)
+				(at 38.1 -17.78 180)
 				(length 7.62)
 				(name "*RX0BF"
 					(effects
@@ -2920,7 +2872,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -15.24 180)
+				(at 38.1 -15.24 180)
 				(length 7.62)
 				(name "*INT"
 					(effects
@@ -2938,7 +2890,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -12.7 180)
+				(at 38.1 -12.7 180)
 				(length 7.62)
 				(name "SCK"
 					(effects
@@ -2956,7 +2908,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -10.16 180)
+				(at 38.1 -10.16 180)
 				(length 7.62)
 				(name "SI"
 					(effects
@@ -2974,7 +2926,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -7.62 180)
+				(at 38.1 -7.62 180)
 				(length 7.62)
 				(name "SO"
 					(effects
@@ -2992,7 +2944,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -5.08 180)
+				(at 38.1 -5.08 180)
 				(length 7.62)
 				(name "*CS"
 					(effects
@@ -3010,7 +2962,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 -2.54 180)
+				(at 38.1 -2.54 180)
 				(length 7.62)
 				(name "*RESET"
 					(effects
@@ -3028,7 +2980,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 76.2 0 180)
+				(at 38.1 0 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -3187,6 +3139,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "MCP2515-I_SO_1_1"
+			(rectangle
+				(start 7.62 2.54)
+				(end 30.48 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -5504,7 +5469,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 27.94 10.16 0)
+			(at 16.002 7.112 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5512,7 +5477,7 @@
 			)
 		)
 		(property "Value" "SN74AHC14N"
-			(at 27.94 7.62 0)
+			(at 16.002 4.318 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5575,54 +5540,6 @@
 			)
 		)
 		(symbol "SN74AHC14N_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -20.32) (xy 48.26 -20.32)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -20.32)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 -20.32) (xy 48.26 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin input line
 				(at 0 0 0)
 				(length 7.62)
@@ -5642,7 +5559,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -10.16 180)
+				(at 31.75 -10.16 180)
 				(length 7.62)
 				(name "5Y"
 					(effects
@@ -5660,7 +5577,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -7.62 180)
+				(at 31.75 -7.62 180)
 				(length 7.62)
 				(name "5A"
 					(effects
@@ -5678,7 +5595,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -5.08 180)
+				(at 31.75 -5.08 180)
 				(length 7.62)
 				(name "6Y"
 					(effects
@@ -5696,7 +5613,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -2.54 180)
+				(at 31.75 -2.54 180)
 				(length 7.62)
 				(name "6A"
 					(effects
@@ -5714,7 +5631,7 @@
 				)
 			)
 			(pin power_in line
-				(at 55.88 0 180)
+				(at 31.75 0 180)
 				(length 7.62)
 				(name "VCC"
 					(effects
@@ -5840,7 +5757,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -15.24 180)
+				(at 31.75 -15.24 180)
 				(length 7.62)
 				(name "4Y"
 					(effects
@@ -5858,7 +5775,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -12.7 180)
+				(at 31.75 -12.7 180)
 				(length 7.62)
 				(name "4A"
 					(effects
@@ -5873,6 +5790,701 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SN74AHC14N_1_1"
+			(rectangle
+				(start 7.62 2.54)
+				(end 24.13 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "STS6NF20V"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CR"
+			(at 20.32 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "STS6NF20V"
+			(at 20.32 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SO-8_STM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "STS6NF20V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N Type Mosfet"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "STS6NF20V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SO-8_STM SO-8_STM-M SO-8_STM-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "STS6NF20V_0_1"
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 11.43 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 11.43 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 11.43 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -10.16) (xy 11.43 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -7.62) (xy 7.62 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -6.35) (xy 14.605 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 0) (xy 11.43 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -4.445) (xy 17.78 -3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -4.445) (xy 19.05 -4.445)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -3.175) (xy 19.05 -3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 -6.35) (xy 17.78 3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 3.175) (xy 28.575 3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19.05 -4.445) (xy 17.78 -3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -3.81) (xy 20.32 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.32 -3.81) (xy 22.86 -3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.955 -4.445) (xy 22.86 -3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.955 -3.175) (xy 20.955 -4.445)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -6.985) (xy 22.86 -5.715)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -6.35) (xy 14.605 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -4.445) (xy 22.86 -3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -3.81) (xy 20.955 -3.175)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -1.905) (xy 22.86 -0.635)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 -1.27) (xy 17.78 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 23.495 -6.35) (xy 26.035 -6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 23.495 -0.635) (xy 23.495 -6.985)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 26.035 -10.16) (xy 11.43 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 26.035 -6.35) (xy 26.035 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 28.575 -7.62) (xy 33.02 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 28.575 3.175) (xy 28.575 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -5.08) (xy 28.575 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -2.54) (xy 28.575 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 0) (xy 28.575 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -4.445) (xy 17.78 -3.175) (xy 19.05 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20.955 -3.175) (xy 20.955 -4.445) (xy 22.86 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 17.78 -6.35)
+				(radius 0.254)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 17.78 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -6.35)
+				(radius 0.254)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 20.32 -3.81)
+				(radius 5.2324)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 7.62)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -7.62 180)
+				(length 7.62)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STS6NF20V_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 33.02 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
